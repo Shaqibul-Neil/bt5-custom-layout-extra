@@ -1,0 +1,39 @@
+/*width*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+/*track*/
+::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 10px #8bdaf7;
+	border-radius: 10px;
+}
+/*button*/
+::-webkit-scrollbar-button{
+	box-shadow: inset 0 0 10px #0083b3;
+	border-radius: 10px;
+}
+/*handle*/
+::-webkit-scrollbar-thumb{
+	background-color: #052df5;
+	border-radius: 10px;
+}
+/*handle on hover*/
+::-webkit-scrollbar-thumb:hover{
+	background-color: grey;
+}
+.header, .hero, .body, .bar, .footer{
+	background-color: yellow;
+	min-height: 100px;
+	margin: 50px 0;
+
+}
+.box{
+	margin: 10px 0;
+	background-color: red;
+	min-height: 80px;
+	font-size: 30px;
+	color: white;
+}
+.box2{
+	background-color: salmon;
+}				
